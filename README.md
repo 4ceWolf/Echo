@@ -60,13 +60,3 @@ Drop a `.lrc` file next to the audio file with the same basename
 [00:15.00]Second line
 ```
 
-## Known limitations / next steps
-- No playlist persistence yet (queue is built from folder contents when you click a
-  track — this matches your "browse and play from folder" ask, but a saved-playlist
-  feature would be a natural add-on)
-- Album art extraction handles ID3 (MP3), FLAC/OGG, and MP4/M4A cover art; other
-  formats may not show art
-- No crossfade/gapless (playbin default gapless behavior applies to same-format files
-  but isn't explicitly tuned)
-- Visualizer band count is fixed at 32; easy to change in `player.py`
-  (`spectrum.set_property("bands", N)`)
