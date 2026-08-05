@@ -1,7 +1,7 @@
 # Echo
 
 A native GNOME music player: GTK4 + libadwaita UI, GStreamer playback, full MPRIS2
-integration (so GNOME media keys and shell extensions — including Hanabi — control it
+integration (so GNOME media keys and shell extensions control it
 natively), folder-hierarchy file browsing, `.lrc` synced lyrics, and a live spectrum
 visualizer.
 
