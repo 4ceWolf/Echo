@@ -1,3 +1,9 @@
+This project will likely be going on hiatus until I figure out what to use properly due to Gnome 51 blur and GTK4 issues.
+
+
+
+
+
 # Echo
 
 A native GNOME music player: GTK4 + libadwaita UI, GStreamer playback, full MPRIS2
