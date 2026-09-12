@@ -1,6 +1,6 @@
-This project will likely be going on hiatus until I figure out what to use properly due to Gnome 51 blur and GTK4 issues.
+// OLD STATUS. This project will likely be going on hiatus until I figure out what to use properly due to Gnome 51 blur and GTK4 issues.
 
-
+as of 12th september, this project... IS OFFICIALLY BEING REVIVED and is in the mix to get a full on RUST rewrite and a whole new ui and a secret feature.... seen nowhere yet. oh and it will flashbang you.
 
 
 
