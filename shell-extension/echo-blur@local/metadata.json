@@ -1,0 +1,8 @@
+{
+    "uuid": "echo-blur@local",
+    "name": "Echo Blur",
+    "description": "Applies real compositor blur-behind-window specifically to the Echo music player, so its frosted-glass theme actually blurs your desktop, not just a picture inside the app.",
+    "shell-version": ["45", "46", "47", "48", "49", "50"],
+    "url": "",
+    "version": 1
+}

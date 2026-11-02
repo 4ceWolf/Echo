@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Echo
+Comment=Local music player with visualizer and synced lyrics
+Exec=echo-player
+Icon=io.echo.Player
+Terminal=false
+Type=Application
+Categories=Audio;Music;Player;GTK;
+Keywords=music;audio;player;
+StartupNotify=true

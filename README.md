@@ -1,13 +1,7 @@
-// OLD STATUS. This project will likely be going on hiatus until I figure out what to use properly due to Gnome 51 blur and GTK4 issues.
-
-as of 12th september, this project... IS OFFICIALLY BEING REVIVED and is in the mix to get a full on RUST rewrite and a whole new ui and a secret feature.... seen nowhere yet. oh and it will flashbang you.
-
-
-
 # Echo
 
 A native GNOME music player: GTK4 + libadwaita UI, GStreamer playback, full MPRIS2
-integration (so GNOME media keys and shell extensions control it
+integration (so GNOME media keys and shell extensions — including Hanabi — control it
 natively), folder-hierarchy file browsing, `.lrc` synced lyrics, and a live spectrum
 visualizer.
 
@@ -66,3 +60,13 @@ Drop a `.lrc` file next to the audio file with the same basename
 [00:15.00]Second line
 ```
 
+## Known limitations / next steps
+- No playlist persistence yet (queue is built from folder contents when you click a
+  track — this matches your "browse and play from folder" ask, but a saved-playlist
+  feature would be a natural add-on)
+- Album art extraction handles ID3 (MP3), FLAC/OGG, and MP4/M4A cover art; other
+  formats may not show art
+- No crossfade/gapless (playbin default gapless behavior applies to same-format files
+  but isn't explicitly tuned)
+- Visualizer band count is fixed at 32; easy to change in `player.py`
+  (`spectrum.set_property("bands", N)`)

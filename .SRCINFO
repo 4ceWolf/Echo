@@ -1,0 +1,26 @@
+pkgbase = echo-player
+	pkgdesc = A GTK4/libadwaita music player with visualizer, lyrics, waveform, and smart shuffle
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/4ceWolf/Echo
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	depends = python
+	depends = python-gobject
+	depends = gtk4
+	depends = libadwaita
+	depends = gstreamer
+	depends = gst-plugins-base
+	depends = gst-plugins-good
+	depends = gst-plugins-bad
+	depends = gst-plugins-ugly
+	depends = gst-libav
+	depends = python-mutagen
+	depends = python-pillow
+	depends = python-cairo
+	optdepends = cava: live audio visualizer bars (falls back to GStreamer spectrum without it)
+	source = echo-player-1.0.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = echo-player
