@@ -1,4 +1,4 @@
-# Maintainer: 4ceWolf <4ceWolf@gmail.com>
+# Maintainer: 4ceWolf <4ceWolf@users.noreply.github.com>
 pkgname=echo-player
 pkgver=1.0.0
 pkgrel=1
